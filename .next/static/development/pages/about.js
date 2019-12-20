@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\post.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -5637,21 +5637,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cpost.js!./":
-/*!**********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cpost.js ***!
-  \**********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cabout.js!./":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cabout.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/post", function() {
-      var page = __webpack_require__(/*! ./pages/post.js */ "./pages/post.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
+      var page = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
       if(true) {
-        module.hot.accept(/*! ./pages/post.js */ "./pages/post.js", function() {
-          if(!next.router.components["/post"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/post.js */ "./pages/post.js")
-          next.router.update("/post", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/about.js */ "./pages/about.js", function() {
+          if(!next.router.components["/about"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/about.js */ "./pages/about.js")
+          next.router.update("/about", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -9943,6 +9943,40 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./pages/about.js":
+/*!************************!*\
+  !*** ./pages/about.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/MyLayout */ "./pages/components/MyLayout.js");
+var _jsxFileName = "C:\\Users\\jeffe\\source\\repos\\REACT\\primerReact\\pages\\about.js";
+
+
+function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "This is the about page"));
+}
+
+/***/ }),
+
 /***/ "./pages/components/Header.js":
 /*!************************************!*\
   !*** ./pages/components/Header.js ***!
@@ -10047,60 +10081,14 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ "./pages/post.js":
-/*!***********************!*\
-  !*** ./pages/post.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _pages_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/components/MyLayout */ "./pages/components/MyLayout.js");
-var _jsxFileName = "C:\\Users\\jeffe\\source\\repos\\REACT\\primerReact\\pages\\post.js";
-
-
-
-
-var Page = function Page() {
-  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_1__["useRouter"])();
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, router.query.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "This is the Blog"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Page);
-
-/***/ }),
-
-/***/ 2:
-/*!**************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cpost.js ***!
-  \**************************************************************************************************************************************************/
+/***/ 1:
+/*!****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cabout.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cpost.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpost&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cpost.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cjeffe%5Csource%5Crepos%5CREACT%5CprimerReact%5Cpages%5Cabout.js!./");
 
 
 /***/ }),
@@ -10116,5 +10104,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=post.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=about.js.map
